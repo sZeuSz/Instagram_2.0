@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.topo{
+    background-color: blue;
+    height: 54px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 22px;
+    width: 22px;
+} 
+
+input{
+    text-align: center;
+    height: 28px;
+    width: 215px;
+    border-bottom-left-radius: 1px solid #FAFAFA;    ;
+}
