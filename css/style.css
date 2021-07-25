@@ -587,7 +587,7 @@ input {
         width: 100%;
     }
     .caixa-comentario{
-        width: calc(100vw - 50px);
+        width: calc(100%);
     }
     .divide-posts{
         margin-top: 0px;
