@@ -541,7 +541,7 @@ input {
         display: none;
     }
     .rodape .comentarios-comentar {
-        width: 100%;
+        width: 96vw;
     }
     .coluna-post{
         width: 100%;
@@ -587,7 +587,7 @@ input {
         width: 100%;
     }
     .caixa-comentario{
-        /* width: calc(100vw - 13px); */
+        width: calc(100vw - 50px);
     }
     .divide-posts{
         margin-top: 0px;
