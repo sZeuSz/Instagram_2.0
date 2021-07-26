@@ -41,6 +41,7 @@ strong{
 .limitador-topo{
     display:flex;
     justify-content: space-between;
+    align-items: center;
     width: 935px;
     margin: 0 auto;
 }
@@ -49,10 +50,7 @@ input {
     height: 28px;
     width: 215px;
     border-style: solid;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-radius: 3px;
 }
 .logo{
     height: 22px;
@@ -71,6 +69,9 @@ input {
 }
 .icones{
     width: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .icones a{
     margin: 5px;
@@ -148,8 +149,6 @@ input {
     width: 614px;
 }
 .post{
-    /* position: relative; */
-    /* height: 730px; */
     border:1px solid #DBDBDB;
     margin-top: 60px;
     
@@ -593,14 +592,7 @@ input {
         margin-top: 0px;
     }
     body{
-        /*bug*/
         overflow-x: hidden;
     }
 
-    /*
-    udebbug
-
-
-
-    */
 }
